@@ -1,6 +1,6 @@
 ﻿namespace Patterns.Abstract
 {
-    public class ConcreteFactoryTwo : AbstractFactory
+    public class ConcreteFactoryTwo : Factory
     {
         public override AbstractProductA CreateProductA()
         {

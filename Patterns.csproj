@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\AbstractFactory.cs" />
+    <Compile Include="Abstract\Factory.cs" />
     <Compile Include="Abstract\AbstractProductA.cs" />
     <Compile Include="Abstract\AbstractProductB.cs" />
     <Compile Include="Abstract\Sample.cs" />
@@ -58,6 +58,13 @@
     <Compile Include="Builder\Client.cs" />
     <Compile Include="Builder\Product.cs" />
     <Compile Include="Builder\Sample.cs" />
+    <Compile Include="Factory\ConcreteFactoryOne.cs" />
+    <Compile Include="Factory\ConcreteFactoryTwo.cs" />
+    <Compile Include="Factory\ConcreteProductOne.cs" />
+    <Compile Include="Factory\ConcreteProductTwo.cs" />
+    <Compile Include="Factory\Factory.cs" />
+    <Compile Include="Factory\Product.cs" />
+    <Compile Include="Factory\Sample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

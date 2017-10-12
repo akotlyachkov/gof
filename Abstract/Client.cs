@@ -2,20 +2,20 @@
 {
     public class Client
     {
-        private AbstractProductA productA;
+        private AbstractProductA _productA;
         
-        private AbstractProductB productB;
+        private AbstractProductB _productB;
         
-        public Client( AbstractFactory factory)
+        public Client( Factory factory)
         {
-            productA = factory.CreateProductA();
-            productB = factory.CreateProductB();
+            _productA = factory.CreateProductA();
+            _productB = factory.CreateProductB();
         }
 
         public void Test()
         {
-            productA.Model();
-            productB.Price();
+            _productA.Model();
+            _productB.Price();
         }
     }
 }
